@@ -19,9 +19,8 @@ Populating the cap means physically inserting every optode for your finalized mo
 1. Locate the correct cap slit for the probe.
 2. Guide the grommet through the slit **from inside the cap**.
 3. Place the correctly coloured grommet label (🔴 red = source, 🔵 blue = detector).
-4. If using stabilising links, attach one per channel pairing.
-5. Place the grommet cap over the stabilising links + label to secure everything.
-6. Repeat for the full montage.
+4. Place the grommet cap over the stabilising links + label.
+5. Repeat for the full montage.
 
 ## 3. Spring Base Grommets
 1. Place the grommet label and any stabilising links first.
@@ -34,8 +33,8 @@ Populating the cap means physically inserting every optode for your finalized mo
 2. Snap the spring top onto the probe to hold it under pressure.
 
 **Tension guide:**
-- Frontal/hairless regions → start at **0 tension**
-- Thicker-hair regions (e.g. occipital) → higher tension, up to tension III (~4 lb/in)
+- Hairless regions → start at **0 tension**
+- Thicker-hair regions (e.g. occipital) → higher tension
 - **Only increase tension once hair is fully parted AND signal is still poor** — don't use tension as a first fix for hair.
 - You can mix tension levels across regions on the same participant. Always prioritize comfort.
 
@@ -57,6 +56,5 @@ Populating the cap means physically inserting every optode for your finalized mo
 ## 6. Final Check Before Participant Arrival
 - All optodes physically match grommet labels **and** the montage loaded in Aurora/NIRSite — a mismatch causes genuinely poor signal (wrong source–detector pairs), not just mislabeled data.
 - No fabric caught in any grommet groove (this jams the spring mechanism and decouples the optode from the scalp).
-- Short distance detector (SDD) sources sit flush, not recessed.
 
 Next: [Participant Preparation](./Participant-Preparation)
