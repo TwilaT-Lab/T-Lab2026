@@ -61,3 +61,7 @@ NeuroImage, Volume 321, 2025, 121522, ISSN 1053-8119, https://doi.org/10.1016/j.
 > fNIRS hyperscanning for parent-child shared reading, 19–46 months children.
 > **Citation:** Yu Zhai, Huixin Xie, Hui Zhao, Wenjing Wang, Chunming Lu, Neural synchrony underlies the positive effect of shared reading on children’s language ability, Cerebral Cortex, Volume 33, Issue 19, 1 October 2023, Pages 10426–10440, https://doi.org/10.1093/cercor/bhad293
 >
+
+**Neural Synchrony, Parent-Child Collaborative Drawing**
+> fNIRS hyperscanning for parent-child collaborative task (the Etch-a-Sketch, a joint drawing task), focus on dorsalateral prefrontal cortex(dlPFC) & temporoparietal junction(TPJ), 6–11 years children.
+> **Citation:** Yu Zhai, Huixin Xie, Hui Zhao, Wenjing Wang, Chunming Lu, Neural synchrony underlies the positive effect of shared reading on children’s language ability, Cerebral Cortex, Volume 33, Issue 19, 1 October 2023, Pages 10426–10440, https://doi.org/10.1093/cercor/bhad293
