@@ -9,7 +9,8 @@ nav_order: 8
 Run this **after** the cap is on the participant and the correct configuration is loaded in Aurora, **before** starting the recording.
 
 ## 1. Load the Configuration
-1. Open Aurora, click the device icon. If the device doesn't appear automatically, click **"Refresh list."**
+1. Open Aurora, connect NIRx broadcast Wi-Fi, and click the device icon. If the device doesn't appear automatically, click **"Refresh list."**
+[wifi]({{ '/docs/images/wifi.png' | relative_url }})
 2. If the device is on but not auto-connecting, enter the password printed on the bottom of the NIRSport2 unit.
 3. Click the configuration name for your study → a red checkmark appears and a new window opens.
 4. Confirm the loaded montage matches the cap you just built.
