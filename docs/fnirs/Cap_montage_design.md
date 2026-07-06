@@ -43,7 +43,7 @@ Go/NoGo task based fNIRS recording for children.
 
 **Citation:** Shah, L., Zhou, X., DiPiero, M.A. et al. Neural Correlates of Inhibitory Control in Children: Evidence Using MRI and fNIRS. *Brain Topogr* 38, 54 (2025). https://doi.org/10.1007/s10548-025-01129-8
 
-![image1]({{ "/images/image1.png" | relative_url }})
+![image1]({{ '/docs/images/image1.png' | relative_url }})
 
 ---
 
@@ -62,7 +62,7 @@ Sentence, word list, jabberwocky, and non-word list reading for adults.
 
 **Citation:** Čeko, M., Hirshfield, L., Doherty, E. et al. Cortical cognitive processing during reading captured using functional near-infrared spectroscopy. *Sci Rep* 14, 19483 (2024). https://doi.org/10.1038/s41598-024-69630-x
 
-![Reading task stimuli examples]({{ "/images/reading/stimuli-examples.png" | relative_url }})
+![image3]({{ '/docs/images/image3.png' | relative_url }})
 
 ---
 
@@ -72,9 +72,8 @@ fNIRS hyperscanning for parent-child play/motor-related game, ASD & typically de
 
 **Citation:** Kruppa, J.A., Reindl, V., Gerloff, C., Oberwelland Weiss, E., Prinz, J., Herpertz-Dahlmann, B., Konrad, K., Schulte-Rüther, M. Brain and motor synchrony in children and adolescents with ASD—a fNIRS hyperscanning study. *Social Cognitive and Affective Neuroscience*, Volume 16, Issue 1-2, January-February 2021, Pages 103–116. https://doi.org/10.1093/scan/nsaa092
 
-![Parent-child hyperscanning setup]({{ "/images/parent-child-interaction/hyperscanning-setup.png" | relative_url }})
+![image4]({{ '/docs/images/image2.png' | relative_url }})
 
----
 
 ### Neural Synchrony, Parent-Child Shared Reading
 
@@ -82,14 +81,6 @@ fNIRS hyperscanning for parent-child shared reading, 19–46 month-old children.
 
 **Citation:** Zhai, Y., Xie, H., Zhao, H., Wang, W., Lu, C. Neural synchrony underlies the positive effect of shared reading on children's language ability. *Cerebral Cortex*, Volume 33, Issue 19, 1 October 2023, Pages 10426–10440. https://doi.org/10.1093/cercor/bhad293
 
-![Parent-child shared reading setup]({{ "/images/shared-reading/task-setup.png" | relative_url }})
+![image5]({{ '/docs/images/image2.png' | relative_url }})
 
----
 
-### Neural Synchrony, Parent-Child Collaborative Drawing
-
-fNIRS hyperscanning for parent-child collaborative task (the Etch-a-Sketch joint drawing task), focused on dorsolateral prefrontal cortex (dlPFC) & temporoparietal junction (TPJ), 6–11 year-old children.
-
-**Citation:** Zhai, Y., Xie, H., Zhao, H., Wang, W., Lu, C. Neural synchrony underlies the positive effect of shared reading on children's language ability. *Cerebral Cortex*, Volume 33, Issue 19, 1 October 2023, Pages 10426–10440. https://doi.org/10.1093/cercor/bhad293
-
-![Collaborative drawing task (Etch-a-Sketch)]({{ "/images/collaborative-drawing/etch-a-sketch-task.png" | relative_url }})
