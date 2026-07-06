@@ -53,7 +53,7 @@ Phonological awareness in Chinese-English bilingual children, aged 6–7.
 
 **Citation:** Li, Y.L., Fan, L.Y., Chen, H.C., Chen, S.Y., Kovelman, I., Chou, T.L. Developmental changes in phonological awareness in Chinese-English bilingual children: An fNIRS longitudinal study. *NeuroImage*, Volume 321, 2025, 121522. https://doi.org/10.1016/j.neuroimage.2025.121522
 
-![Phonological awareness task design]({{ "/images/phonological-awareness/task-design.png" | relative_url }})
+![image2]({{ "/images/image2.png" | relative_url }})
 
 ---
 
