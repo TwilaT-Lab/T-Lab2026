@@ -41,7 +41,9 @@ nav_order: 3
 > **Executive function(EF), Inhibitory Control**
 > Go/NoGo task based fNIRS recording for children.
 > **Citation:** Shah, L., Zhou, X., DiPiero, M.A. et al. Neural Correlates of Inhibitory Control in Children: Evidence Using MRI and fNIRS. Brain Topogr 38, 54 (2025). https://doi.org/10.1007/s10548-025-01129-8
- 
+ ![Image1]({{ "/images/image1.png" | relative_url }})
+
+> 
 > **Phonological awareness**
 > Phonological awareness in Chinese-English bilingual children, aged 6–7.
 > **Citation:** Yueh-Lin Li, Li-Ying Fan, Hsin-Chin Chen, Shiou-Yuan Chen, Ioulia Kovelman, Tai-Li Chou,
