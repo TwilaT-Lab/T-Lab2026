@@ -72,7 +72,7 @@ fNIRS hyperscanning for parent-child play/motor-related game, ASD & typically de
 
 **Citation:** Kruppa, J.A., Reindl, V., Gerloff, C., Oberwelland Weiss, E., Prinz, J., Herpertz-Dahlmann, B., Konrad, K., Schulte-Rüther, M. Brain and motor synchrony in children and adolescents with ASD—a fNIRS hyperscanning study. *Social Cognitive and Affective Neuroscience*, Volume 16, Issue 1-2, January-February 2021, Pages 103–116. https://doi.org/10.1093/scan/nsaa092
 
-![image4]({{ '/docs/images/image2.png' | relative_url }})
+![image4]({{ '/docs/images/image4.png' | relative_url }})
 
 
 ### Neural Synchrony, Parent-Child Shared Reading
@@ -81,6 +81,6 @@ fNIRS hyperscanning for parent-child shared reading, 19–46 month-old children.
 
 **Citation:** Zhai, Y., Xie, H., Zhao, H., Wang, W., Lu, C. Neural synchrony underlies the positive effect of shared reading on children's language ability. *Cerebral Cortex*, Volume 33, Issue 19, 1 October 2023, Pages 10426–10440. https://doi.org/10.1093/cercor/bhad293
 
-![image5]({{ '/docs/images/image2.png' | relative_url }})
+![image5]({{ '/docs/images/image5.png' | relative_url }})
 
 
