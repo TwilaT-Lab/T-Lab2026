@@ -61,7 +61,7 @@ Start the optimization routine (▶ play button). This is an **iterative process
 
 - Re-run optimization after each fix. If it improves, continue; if not, move to the next cause.
 - Use **Refresh** for live feedback while making physical adjustments (source brightness won't re-adjust during Refresh) — run the full optimization (▶) again once you're done adjusting.
-> ** A comprehensive guide of troubleshooting related to signal: [Refer to this manual](https://nirx.sharefile.com/share/view/sef0f1bc2ebb4723a)
+> **A comprehensive guide of troubleshooting related to signal:** [Refer to this manual](https://nirx.sharefile.com/share/view/sef0f1bc2ebb4723a)
 
 ---
 
