@@ -9,18 +9,18 @@ nav_order: 9
 ## Before the Participant Arrives
 1. Log into the NIRSport2 laptop and plug the router into the outlet.
 2. Open **Network and Internet settings** → click on your access point's broadcast name to connect wirelessly. *(The device can also connect via USB cable.)*
-3. Turn on the NIRSport2: hold **Power** until it turns green.
+   
+4. Turn on the NIRSport2: hold **Power** until it turns green.
    > Avoid powering on right before recording — early power-on can cause signal drift.
-4. Plug in sources, detectors, and the trigger cable into the NIRSport2. Each connector **clicks** when seated correctly.
-5. Open Aurora → click the 5th icon → double-click the device icon.
+5. Plug in sources, detectors, and the trigger cable into the NIRSport2.
+6. Open Aurora → Select the device.
    - No device showing? Click **"Refresh list."**
    - Device on but not auto-connecting? Enter the password printed on the bottom of the NIRSport2 unit.
-6. Click your study's configuration name — a red checkmark appears and a new window opens.
-
+7. Click your study's configuration name.
 ---
 
 ## Participant Setup
-1. Briefly introduce the fNIRS setup; have the participant sit comfortably, minimizing body movement.
+1. Briefly introduce the fNIRS and experiment setup; have the participant sit comfortably, minimizing body movement.
 2. Place the populated cap (see [Participant Preparation](./Participant-Preparation) for full fitting steps):
    - Seam above the eyebrows, level
    - Cap tag (back of cap) pulled out
@@ -53,16 +53,6 @@ Full troubleshooting reference: [fNIRS Signal Optimization](./fNIRS-Signal-Optim
 2. **Start** with the circle button; **Stop** with the stop button.
 3. Record a few seconds of **baseline** before starting the stimulus script.
 4. Start the PsychoPy/stimulus script so triggers begin streaming (see [PsychoPy Setup](./PsychoPy-Setup)).
-
-**Other Aurora toolbar functions:**
-
-| Icon | Function |
-|---|---|
-| A | Preview |
-| D | Clear page |
-| E | Normalize baseline |
-| F | Hide/view feature bar |
-| G | Disconnect |
 
 ---
 
