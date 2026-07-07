@@ -32,6 +32,9 @@ Populating the cap means physically inserting every optode for your finalized mo
 1. Rest the probe in its grommet (no firm fit yet).
 2. Snap the spring top onto the probe to hold it under pressure.
 
+![probe]({{ '/docs/images/probe.png' | relative_url }})
+
+
 **Tension guide:**
 - Hairless regions → start at **0 tension**
 - Thicker-hair regions (e.g. occipital) → higher tension
