@@ -83,6 +83,6 @@ LSL synchronizes data and triggers over the same Wi-Fi/router network already us
 > **Recommended order:** Start Aurora first → record a few seconds of baseline → then start the PsychoPy script. Confirm the LSL stream name matches on both sides **every session**, not just the first time.
 
 ---
-
-## General Reminders
-- Trigger files are saved automatically: `*_lsl.tri` (LSL/manual) and `*.tri` (hardware) in the recording's data folder.
+{: .note }
+Trigger files are saved automatically: `*_lsl.tri` (LSL/manual) and 
+`*.tri` (hardware) in the recording's data folder.
