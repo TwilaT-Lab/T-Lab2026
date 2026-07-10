@@ -2,7 +2,7 @@
 layout: default
 title: Cap Montage Design
 parent: fNIRS
-nav_order: 3
+nav_order: 4
 ---
 ## Create Montage Template for Aurora
 
@@ -15,13 +15,14 @@ nav_order: 3
    Choose switch to 2D layout to select a standard position (e.g., the 10-10 system).
    The 3D interface only allows arbitrary positioning.
 
-4. **Optode Placement & Configuration**
+3. **Optode Placement & Configuration**
    - Assigns `Source`, `Detector`as designed
    - Numbers (e.g., S1, S2...) appear in the order they were clicked
    - A **purple line** will appear between a source and a detector once 
      paired.
 
-   > **Note:** Be mindful S1 and S2 cannot be placed too far apart, and each detector may only connect to a maximum of 3      sources. If no line appears between a source and detector, check the distance between them.
+   > **Note:** Be mindful S1 and S2 cannot be placed too far apart, and each detector may only connect to a maximum of 3 sources.
+   > If no line appears between a source and detector, check the distance between them.
 
 5. **Upload / Save**
    Under "Save," choose **"Export to Aurora,"** or alternatively save 
@@ -29,13 +30,13 @@ nav_order: 3
    
 
    ---
- ## Related Papers
+### Related Papers
 
 ### Executive Function (EF), Inhibitory Control
 
 Go/NoGo task based fNIRS recording for children.
-
-**Citation:** Shah, L., Zhou, X., DiPiero, M.A. et al. Neural Correlates of Inhibitory Control in Children: Evidence Using MRI and fNIRS. *Brain Topogr* 38, 54 (2025). https://doi.org/10.1007/s10548-025-01129-8
+[Shah et al. (2025)](https://doi.org/10.1007/s10548-025-01129-8).
+Shah, L., Zhou, X., DiPiero, M.A. et al. Neural Correlates of Inhibitory Control in Children: Evidence Using MRI and fNIRS. *Brain Topogr* 38, 54 (2025). https://doi.org/10.1007/s10548-025-01129-8
 
 ![image1]({{ '/docs/images/image1.png' | relative_url }})
 
