@@ -17,8 +17,14 @@ nav_order: 3
 | Wireless | Lab Streaming Layer (LSL) |
 
 ---
+## 1. Manual Triggering
+### Step 1 — Connect Hardware
+### Step 2 - Mannually Put Trigger
+- Assign different triggers to the F1–F12 keys. During recording, press the corresponding function key (F1–F12) whenever a trigger is required to insert a trigger marker into the recorded data.
+Image 1  
+- When a trigger is set successfully, a vertical line will appear on the on-going recording data.
 
-## 2. Wired Triggering (Trigger Cable + C-POD) — Code Setup
+## 2. Wired Triggering 
 
 In PsychoPy, select the serial port and use a Code Component to send TTL pulses.
 
@@ -64,9 +70,9 @@ port.close()
 
 ---
 
-## Wireless Triggering via LSL
+## 3. Wireless Triggering via LSL
 
-LSL synchronizes data and triggers over the same Wi-Fi/router network already used for the Aurora device connection.
+LSL synchronizes data and triggers over the same Wi-Fi/router network already used for the Aurora device connection. This method is particularly suitable for hyperscanning experiments in which a presentation PC delivers stimuli to both participants performing time-sensitive tasks simultaneously.
 
 - In Aurora's configuration, set the **Trigger in** stream name (default: `"Trigger"`).
 - The stream name on the **PsychoPy side must match exactly** — a mismatch silently drops all triggers.
