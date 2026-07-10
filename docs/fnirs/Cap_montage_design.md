@@ -36,8 +36,6 @@ nav_order: 4
 
 Go/NoGo task based fNIRS recording for children.
 [Shah et al. (2025)](https://doi.org/10.1007/s10548-025-01129-8).
-Shah, L., Zhou, X., DiPiero, M.A. et al. Neural Correlates of Inhibitory Control in Children: Evidence Using MRI and fNIRS. *Brain Topogr* 38, 54 (2025). https://doi.org/10.1007/s10548-025-01129-8
-
 ![image1]({{ '/docs/images/image1.png' | relative_url }})
 
 ---
@@ -45,8 +43,7 @@ Shah, L., Zhou, X., DiPiero, M.A. et al. Neural Correlates of Inhibitory Control
 ### Phonological Awareness
 
 Phonological awareness in Chinese-English bilingual children, aged 6–7.
-
-**Citation:** Li, Y.L., Fan, L.Y., Chen, H.C., Chen, S.Y., Kovelman, I., Chou, T.L. Developmental changes in phonological awareness in Chinese-English bilingual children: An fNIRS longitudinal study. *NeuroImage*, Volume 321, 2025, 121522. https://doi.org/10.1016/j.neuroimage.2025.121522
+[Li et al. (2025)](https://doi.org/10.1016/j.neuroimage.2025.121522)
 ![image2]({{ '/docs/images/image2.png' | relative_url }})
 
 ---
@@ -54,9 +51,7 @@ Phonological awareness in Chinese-English bilingual children, aged 6–7.
 ### Reading
 
 Sentence, word list, jabberwocky, and non-word list reading for adults.
-
-**Citation:** Čeko, M., Hirshfield, L., Doherty, E. et al. Cortical cognitive processing during reading captured using functional near-infrared spectroscopy. *Sci Rep* 14, 19483 (2024). https://doi.org/10.1038/s41598-024-69630-x
-
+[Čeko et al. (2024)](https://doi.org/10.1038/s41598-024-69630-x)
 ![image3]({{ '/docs/images/image3.png' | relative_url }})
 
 ---
@@ -64,18 +59,11 @@ Sentence, word list, jabberwocky, and non-word list reading for adults.
 ### Neural Synchrony, Parent-Child Interaction
 
 fNIRS hyperscanning for parent-child play/motor-related game, ASD & typically developing children.
-
-**Citation:** Kruppa, J.A., Reindl, V., Gerloff, C., Oberwelland Weiss, E., Prinz, J., Herpertz-Dahlmann, B., Konrad, K., Schulte-Rüther, M. Brain and motor synchrony in children and adolescents with ASD—a fNIRS hyperscanning study. *Social Cognitive and Affective Neuroscience*, Volume 16, Issue 1-2, January-February 2021, Pages 103–116. https://doi.org/10.1093/scan/nsaa092
-
+[Kruppa et al. (2021)](https://doi.org/10.1093/scan/nsaa092)
 ![image4]({{ '/docs/images/image4.png' | relative_url }})
-
 
 ### Neural Synchrony, Parent-Child Shared Reading
 
 fNIRS hyperscanning for parent-child shared reading, 19–46 month-old children.
-
-**Citation:** Zhai, Y., Xie, H., Zhao, H., Wang, W., Lu, C. Neural synchrony underlies the positive effect of shared reading on children's language ability. *Cerebral Cortex*, Volume 33, Issue 19, 1 October 2023, Pages 10426–10440. https://doi.org/10.1093/cercor/bhad293
-
+[Zhai et al. (2023)](https://doi.org/10.1093/cercor/bhad293)
 ![image5]({{ '/docs/images/image5.png' | relative_url }})
-
-
