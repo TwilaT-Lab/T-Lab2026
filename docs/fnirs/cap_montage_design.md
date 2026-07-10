@@ -4,7 +4,7 @@ title: Cap Montage Design
 parent: fNIRS
 nav_order: 4
 ---
-## Create Montage Template for Aurora
+## Cap Montage Design
 
 **Software:** NIRSite
 
@@ -26,7 +26,7 @@ nav_order: 4
 
 5. **Upload / Save**
    Under "Save," choose **"Export to Aurora,"** or alternatively save 
-   as a document and open it directly in Aurora.
+   the montage template as a document and upload it to Aurora.
    
 
    ---
@@ -36,7 +36,7 @@ nav_order: 4
 
 Go/NoGo task based fNIRS recording for children.
 [Shah et al. (2025)](https://doi.org/10.1007/s10548-025-01129-8).
-![image1]({{ '/docs/images/image1.png' | relative_url }})
+![Shah_image]({{ '/docs/images/Shah_image.png' | relative_url }})
 
 ---
 
@@ -44,7 +44,7 @@ Go/NoGo task based fNIRS recording for children.
 
 Phonological awareness in Chinese-English bilingual children, aged 6–7.
 [Li et al. (2025)](https://doi.org/10.1016/j.neuroimage.2025.121522)
-![image2]({{ '/docs/images/image2.png' | relative_url }})
+![Li_image]({{ '/docs/images/Li_image.png' | relative_url }})
 
 ---
 
@@ -52,7 +52,7 @@ Phonological awareness in Chinese-English bilingual children, aged 6–7.
 
 Sentence, word list, jabberwocky, and non-word list reading for adults.
 [Čeko et al. (2024)](https://doi.org/10.1038/s41598-024-69630-x)
-![image3]({{ '/docs/images/image3.png' | relative_url }})
+![Čeko_image]({{ '/docs/images/Čeko_image.png' | relative_url }})
 
 ---
 
@@ -60,10 +60,10 @@ Sentence, word list, jabberwocky, and non-word list reading for adults.
 
 fNIRS hyperscanning for parent-child play/motor-related game, ASD & typically developing children.
 [Kruppa et al. (2021)](https://doi.org/10.1093/scan/nsaa092)
-![image4]({{ '/docs/images/image4.png' | relative_url }})
+![Kruppa_image]({{ '/docs/images/Kruppa_image.png' | relative_url }})
 
 ### Neural Synchrony, Parent-Child Shared Reading
 
 fNIRS hyperscanning for parent-child shared reading, 19–46 month-old children.
 [Zhai et al. (2023)](https://doi.org/10.1093/cercor/bhad293)
-![image5]({{ '/docs/images/image5.png' | relative_url }})
+![Zhai_image]({{ '/docs/images/Zhai_image.png' | relative_url }})
