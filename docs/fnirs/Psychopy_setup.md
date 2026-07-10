@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Psychopy Setup
+title: Trigger Design
 parent: fNIRS
-nav_order: 6
+nav_order: 3
 ---
-# PsychoPy Setup
+# Trigger Design
 
-PsychoPy handles stimulus presentation and trigger delivery to Aurora. Triggers mark the onset/offset of each condition or period of study so Satori can tell conditions apart during analysis.
+*PsychoPy* handles stimulus presentation and trigger delivery to Aurora. Triggers mark the onset/offset of each condition or period of study so Satori can tell conditions/events apart during analysis.
 
 ## Trigger Options
 
@@ -14,11 +14,11 @@ PsychoPy handles stimulus presentation and trigger delivery to Aurora. Triggers 
 |---|---|
 | Manual | F1–F12 keys, up to 12 distinct markers |
 | Wired | Trigger cable + Cedrus C-POD |
-| Wireless | Lab Streaming Layer (LSL) — **preferred method in this lab** |
+| Wireless | Lab Streaming Layer (LSL) |
 
 ---
 
-## Wired Triggering (Trigger Cable + C-POD) — Code Setup
+## 2. Wired Triggering (Trigger Cable + C-POD) — Code Setup
 
 In PsychoPy, select the serial port and use a Code Component to send TTL pulses.
 
