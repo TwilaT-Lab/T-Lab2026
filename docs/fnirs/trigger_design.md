@@ -21,7 +21,8 @@ nav_order: 3
 ### Step 1 — Connect Hardware
 ### Step 2 - Mannually Put Trigger
 - Assign different triggers to the F1–F12 keys. During recording, press the corresponding function key (F1–F12) whenever a trigger is required to insert a trigger marker into the recorded data.
-Image 1  
+
+*Figure adapted from NIRx fNIRS Training Slides, with modifications.*
 - When a trigger is set successfully, a vertical line will appear on the on-going recording data.
 
 ## 2. Wired Triggering 
