@@ -20,7 +20,7 @@ nav_order: 3
 ## 1. Manual Triggering
 ### Step 1 — Connect Hardware
 ![manualtrigger_hardware]({{ '/docs/images/manualtrigger_hardware.png' | relative_url }})
-*Figure adapted from NIRx fNIRS Training Slides, with modifications.*
+*Figure modified and adapted from NIRx fNIRS Training Slides.*
 
 ### Step 2 - Mannually Put Trigger
 - Assign different triggers to the F1–F12 keys. During recording, press the corresponding function key (F1–F12) whenever a trigger is required to insert a trigger marker into the recorded data.
