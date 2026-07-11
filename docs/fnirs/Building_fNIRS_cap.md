@@ -20,8 +20,8 @@ Cross-reference your NIRSite design with the physical cap map (via the NIRx manu
 
 ## 3. Grommet & Base Assembly
 
-**Core components:** Grommets (rubber/plastic rings) + base grommet (flat circular)
-**Tool required:** Pliers
+- **Core components:** Grommets (rubber/plastic rings) + base grommet (flat circular)
+- **Tool required:** Pliers
 <img src="{{ '/docs/images/pliers.png' | relative_url }}" alt="pliers" width="400">
 
 **Layering sequence (top to bottom):**
