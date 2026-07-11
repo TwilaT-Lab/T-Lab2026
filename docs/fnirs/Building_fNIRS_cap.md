@@ -2,7 +2,7 @@
 layout: default
 title: Building the fNIRS Cap
 parent: fNIRS
-nav_order: 4
+nav_order: 5
 ---
 # Building the fNIRS Cap
 
