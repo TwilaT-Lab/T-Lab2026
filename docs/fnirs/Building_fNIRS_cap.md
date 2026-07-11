@@ -22,6 +22,7 @@ Cross-reference your NIRSite design with the physical cap map (via the NIRx manu
 
 - **Core components:** Grommets (rubber/plastic rings) + base grommet (flat circular)
 - **Tool required:** Pliers
+  
 <img src="{{ '/docs/images/pliers.png' | relative_url }}" alt="pliers" width="400">
 
 **Layering sequence (top to bottom):**
@@ -30,42 +31,33 @@ Cross-reference your NIRSite design with the physical cap map (via the NIRx manu
 3. Label (sits at the bottom of the stabilizer)
 ![layer_sequence]({{ '/docs/images/layer_sequence.png' | relative_url }})
 
+*Picture from NIRx training slides*
+
 **Installation steps:**
 1. Build the grommets according to the layering sequence above.
-2. Pass the grommet through the designated hole in the cap.
-3. Use pliers to open the base grommet.
-   
+![installed_grommettop]({{ '/docs/images/installed_grommettop.png' | relative_url }})
+
+**Installation steps:**   
+3. Pass the grommet through the designated hole in the cap.
+4. Use pliers to open the base grommet.
+![plier_open_grommet]({{ '/docs/images/plier_open_grommet.png' | relative_url }})
+
 5. Clamp and lock the grommet securely into the base.
 
 > **Note:** Install a stabilizer for **every** channel — it keeps the source and detector at a fixed, consistent distance for that channel.
 
 ---
 
-## 4. Cap Sizing
-
-- Measure the participant's head circumference (see [Participant Preparation](./Participant-Preparation) for the landmark-based measuring method).
-- **If between two sizes, choose the smaller size** — cap fabric is slightly stretchy, and a snugger fit reduces optode movement.
-- For 5–10 year old children, average cap size is **~52 cm** (NIRx sizing chart).
-- **Use round caps for Asian head shapes** — the lab stocks both round and oval caps; keep ~3 sizes on hand for your target population.
-
-> **Cap care:** Store away from heat/sunlight. Frequent disinfection shortens elasticity — retire and replace caps once elasticity drops, since elasticity is what maintains scalp coupling.
-
----
-
-## 5. Components Checklist
-
+> Components Checklist
 | Component | Notes |
 |---|---|
-| NIRScap | Base fabric cap |
+| NIRS cap | Base fabric cap |
 | Optodes | Red = source, Blue = detector |
-| Stabilising links | Keep optode spacing fixed (best for 3 cm spacing) |
-| Grommet labels | Numbered 1–16; red = source, blue = detector |
+| Stabilising links | Keep optode spacing fixed|
+| Grommet labels | red = source, blue = detector |
 | Cable tree organisers | Route and relieve strain on cables |
 | Spring base / spring top grommets | Adjustable-pressure grommets for haired regions |
 | Standard (rubber) grommets | For hairless regions only |
-| Overcap | Blocks ambient/IR light, adds stability |
+| Overcap/Shower Cap | Blocks ambient/IR light, adds stability |
 
----
 
-## 6. Before the Participant Arrives
-Build and populate the cap **before** the participant arrives — it's faster and more comfortable for them this way. See [Populating the fNIRS Cap](./Populating-the-fNIRS-Cap) for optode insertion steps.
