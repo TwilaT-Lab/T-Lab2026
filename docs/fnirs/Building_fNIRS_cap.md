@@ -7,7 +7,7 @@ nav_order: 5
 # Building the fNIRS Cap
 
 ## 1. Plan the Montage Before Building the Cap
-Decide your brain ROIs (regions of interest) and finalize the montage design in **NIRSite** before building the physical fNIRS cap. Please see guide [**Cap Montage Design**](cap_montage_design.md)
+Decide your brain ROIs (regions of interest) and finalize the montage design in **NIRSite** before building the physical fNIRS cap. Please see guide [**Cap Montage Design**](cap_montage_design/)
 
 > **Tip:**
 > - Standard source–detector distance: **~2–3 cm for children/infants**, ~3–4 cm for adults
