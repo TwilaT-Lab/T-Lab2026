@@ -47,8 +47,8 @@ Cross-reference your NIRSite design with the physical cap map (via the NIRx manu
 > **Note:** Install a stabilizer for **every** channel — it keeps the source and detector at a fixed, consistent distance for that channel.
 
 ---
+> **Components Checklist**
 
-> Components Checklist
 | Component | Notes |
 |---|---|
 | NIRS cap | Base fabric cap |
