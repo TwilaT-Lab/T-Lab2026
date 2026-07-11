@@ -9,9 +9,8 @@ nav_order: 5
 ## 1. Plan the Montage Before Building the Cap
 Decide your brain ROIs (regions of interest) and finalize the montage design in **NIRSite** before building the physical fNIRS cap. Please see guide [**Cap Montage Design**](https://twilat-lab.github.io/T-Lab2026/docs/fnirs/cap_montage_design.html)
 
-> **Tip:**
+> **Note:**
 > - Standard source–detector distance: **~2–3 cm for children/infants**, ~3–4 cm for adults
-> - Keep channel length consistent across the montage (topographic imaging)
 ---
 
 ## 2. Map Alignment: NIRSite vs. Physical Cap
@@ -29,11 +28,13 @@ Cross-reference your NIRSite design with the physical cap map (via the NIRx manu
 1. Grommet
 2. Stabilizer (sits at the bottom of the grommet)
 3. Label (sits at the bottom of the stabilizer)
+![layer_sequence]({{ '/docs/images/layer_sequence.png' | relative_url }})
 
 **Installation steps:**
-1. Pass the grommet through the designated hole in the cap.
-2. Use pliers to pry open the flaps/tabs of the base.
-3. Clamp and lock the grommet securely into the base.
+1. Build the grommet according to the layering sequence above.
+2. Pass the grommet through the designated hole in the cap.
+3. Use pliers to pry open the flaps/tabs of the base.
+4. Clamp and lock the grommet securely into the base.
 
 > **Note:** Install a stabilizer for **every** channel — it keeps the source and detector at a fixed, consistent distance for that channel.
 
