@@ -12,21 +12,10 @@ Decide your brain ROIs (regions of interest) and finalize the montage design in 
 > **Tip:**
 > - Standard source–detector distance: **~2–3 cm for children/infants**, ~3–4 cm for adults
 > - Keep channel length consistent across the montage (topographic imaging)
-> - If short distance detectors (SDDs) are used, they must be explicitly built into the NIRSite montage; they are not added automatically
-
 ---
 
 ## 2. Map Alignment: NIRSite vs. Physical Cap
 Cross-reference your NIRSite design with the physical cap map (via the NIRx manual/website) before assembling anything.
-
-**Color/marker coding for the 10-5 system:**
-
-| Symbol | Meaning |
-|---|---|
-| 🟢 Green circle | Use this position |
-| 🟡 Yellow circle | Use this position |
-| ✕ Red | Exclude / do not use |
-| • White dot | Standard reference point |
 
 ---
 
@@ -34,6 +23,7 @@ Cross-reference your NIRSite design with the physical cap map (via the NIRx manu
 
 **Core components:** Grommets (rubber/plastic rings) + base grommet (flat circular)
 **Tool required:** Pliers
+
 
 **Layering sequence (top to bottom):**
 1. Grommet
