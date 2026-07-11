@@ -22,7 +22,7 @@ Cross-reference your NIRSite design with the physical cap map (via the NIRx manu
 
 **Core components:** Grommets (rubber/plastic rings) + base grommet (flat circular)
 **Tool required:** Pliers
-![pliers]({{ '/docs/images/pliers.png' | relative_url }})
+<img src="{{ '/docs/images/pliers.png' | relative_url }}" alt="pliers" width="400">
 
 **Layering sequence (top to bottom):**
 1. Grommet
@@ -31,10 +31,11 @@ Cross-reference your NIRSite design with the physical cap map (via the NIRx manu
 ![layer_sequence]({{ '/docs/images/layer_sequence.png' | relative_url }})
 
 **Installation steps:**
-1. Build the grommet according to the layering sequence above.
+1. Build the grommets according to the layering sequence above.
 2. Pass the grommet through the designated hole in the cap.
-3. Use pliers to pry open the flaps/tabs of the base.
-4. Clamp and lock the grommet securely into the base.
+3. Use pliers to open the base grommet.
+   
+5. Clamp and lock the grommet securely into the base.
 
 > **Note:** Install a stabilizer for **every** channel — it keeps the source and detector at a fixed, consistent distance for that channel.
 
