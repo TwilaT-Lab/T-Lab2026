@@ -6,14 +6,13 @@ nav_order: 5
 ---
 # Building the fNIRS Cap
 
-## 1. Plan the Montage Before Touching the Cap
-Decide your brain region(s) of interest and finalize the montage in **NIRSite** (and, if used, **fOLD**) before building anything physical. Building the cap means turning that digital montage into a physical, populated cap.
+## 1. Plan the Montage Before Building the Cap
+Decide your brain ROIs (region(s) of interest) and finalize the montage design in **NIRSite** before building the physical fNIRS cap. 
 
-- Standard source–detector distance: **~2–3 cm for children/infants**, ~3–4 cm for adults
-- Keep channel length consistent across the montage (topographic imaging) — this is the lab standard
-- If short distance detectors (SDDs) are used, they must be explicitly built into the NIRSite montage; they are not added automatically
-
-> **Tip:** Sketch the montage on a printed head template before opening NIRSite — it saves time versus reworking optode positions on the live 3D model.
+> **Tip:**
+> - Standard source–detector distance: **~2–3 cm for children/infants**, ~3–4 cm for adults
+> - Keep channel length consistent across the montage (topographic imaging)
+> - If short distance detectors (SDDs) are used, they must be explicitly built into the NIRSite montage; they are not added automatically
 
 ---
 
