@@ -41,8 +41,9 @@ Populating the cap means physically inserting every optode for your finalized mo
 - Only increase tension once hair is fully parted AND signal is still poor
 - You can mix tension levels across regions on the same participant. Always prioritize comfort.
 > Advice from [Dance Lab](https://dance-lab.github.io/DANCE-Wiki/docs/fnirs_protocols/populating_fnirs_cap/):
-> Children, lighter hair color, thinner hair, low hair density	Spring Pressure 0 or 1
-> Adults, darker hair color, thicker hair, high hair density	Spring Pressure 2 or 3
+>
+> Children, lighter hair color, thinner hair, low hair density → Spring Pressure 0 or 1<br>
+> Adults, darker hair color, thicker hair, high hair density → Spring Pressure 2 or 3
 ---
 
 ## 5. Cables and Cable Trees
