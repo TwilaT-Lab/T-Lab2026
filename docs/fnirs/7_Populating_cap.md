@@ -2,16 +2,16 @@
 layout: default
 title: Populating the fNIRS Cap
 parent: fNIRS
-nav_order: 5
+nav_order: 7
 ---
 # Populating the fNIRS Cap
 
 Populating the cap means physically inserting every optode for your finalized montage into its grommet position. Do this **before the participant arrives.**
 
 ## 1. Choose the Right Cap
-- Measure head circumference and match to a size (see [Building the fNIRS Cap](./Building-the-fNIRS-Cap) for sizing rules).
+- Measure head circumference and match to a size (see [Head Measuring & Cap Fitting](https://twilat-lab.github.io/T-Lab2026/docs/fnirs/6_head_measuring_and_cap_fitting.html) for sizing rules).
 - Use a **round cap** for Asian head shapes.
-- Double-check the cap configuration matches the montage currently loaded in **Aurora**.
+- Check the cap configuration matches the montage loaded in **Aurora**.
 
 ---
 
@@ -38,9 +38,11 @@ Populating the cap means physically inserting every optode for your finalized mo
 **Tension guide:**
 - Hairless regions → start at **0 tension**
 - Thicker-hair regions (e.g. occipital) → higher tension
-- **Only increase tension once hair is fully parted AND signal is still poor** — don't use tension as a first fix for hair.
+- Only increase tension once hair is fully parted AND signal is still poor
 - You can mix tension levels across regions on the same participant. Always prioritize comfort.
-
+- Advice from [Dance Lab](https://dance-lab.github.io/DANCE-Wiki/docs/fnirs_protocols/populating_fnirs_cap/):
+  Children, lighter hair color, thinner hair, low hair density	Spring Pressure 0 or 1
+  Adults, darker hair color, thicker hair, high hair density	Spring Pressure 2 or 3
 ---
 
 ## 5. Cables and Cable Trees
@@ -56,7 +58,7 @@ Populating the cap means physically inserting every optode for your finalized mo
 
 ---
 
-## 6. Final Check Before Participant Arrival
+## 6. Final Check
 - All optodes physically match grommet labels **and** the montage loaded in Aurora/NIRSite — a mismatch causes genuinely poor signal (wrong source–detector pairs), not just mislabeled data.
 - No fabric caught in any grommet groove (this jams the spring mechanism and decouples the optode from the scalp).
 
