@@ -10,6 +10,7 @@ nav_order: 7
 Accurate head measurements ensure correct cap placement and data quality. 
 Recommend to have a recording sheet.
 Remember to ask the participant if they are comfortable throughout the procedure.
+This page was prepared with reference to the [DANCE Lab Head Measuring & Cap Fitting Protocol](https://dance-lab.github.io/DANCE-Wiki/docs/fnirs_protocols/head_measuring_and_cap_fitting/).
 ---
 
 ## Key Landmarks
