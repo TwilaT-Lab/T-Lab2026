@@ -94,4 +94,4 @@ re-fit on the participant.
 |---|---|
 | Velcro chin strap (standard) | General use |
 | Chin strap (tip of chin) | Protocols involving talking |
-| Shoulder harness | Maximum stability |.
+| Shoulder harness | Maximum stability |
