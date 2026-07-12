@@ -2,7 +2,7 @@
 layout: default
 title: Head Measuring and Cap Fitting
 parent: fNIRS
-nav_order: 7
+nav_order: 6
 ---
 # Head Measuring & Cap Fitting
 
