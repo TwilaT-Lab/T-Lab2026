@@ -12,12 +12,15 @@ nav_order: 9
 [wifi_fNIRS]
 4. Turn on the NIRSport2: hold **Power** until it turns green.
    > Avoid powering on right before recording — early power-on can cause signal drift.
+[power_on_fNIRS]
 5. Plug in sources, detectors, and the trigger cable into the NIRSport2.
 [photo needed]
 7. Open Aurora → Select the device.
    - No device showing? Click **"Refresh list."**
    - Device on but not auto-connecting? Enter the password printed on the bottom of the NIRSport2 unit.
-8. Click your study's configuration name.
+[device_selection]
+8. Click your study's configuration name. (Maybe need more in detailed instruction here)
+[photo_needed]
 ---
 
 ## Participant Setup
