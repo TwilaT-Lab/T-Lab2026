@@ -23,7 +23,7 @@ Remember to ask the participant if they are comfortable throughout the procedure
 | **RPA / LPA** | Right / Left preauricular point, in front of the ear |
 
 ![head_landmark]({{ '/docs/images/head_landmark.png' | relative_url }})
-
+*Figure adapted from https://sleeptechstudy.wordpress.com/2013/05/13/the-international-1020-system-of-electrode-placement/*
 ---
 
 ### 1. Take Measurements
@@ -50,8 +50,7 @@ Remember to ask the participant if they are comfortable throughout the procedure
 | 57.0 – 58.9 | Size 58 |
 | 59.0 – 60.9 | Size 60 |
 
-> **Note:** If the participant's size falls between two sizes, round up. 
-> If the cap causes bumps or raised areas when placed, size down one size.
+> **Note:** If the cap causes bumps or raised areas when placed, size down one size.
 
 ---
 
@@ -78,10 +77,7 @@ Confirm the following before proceeding:
 - **Cz** is equidistant between **RPA** and **LPA**
 - The **10% mark** on the forehead aligns with the corresponding 
   marker on the cap
-
-> **Note:** If any measurement is off, adjust the cap accordingly 
-> before proceeding to optode population.
-
+  
 ---
 
 ### 5. Next Step
