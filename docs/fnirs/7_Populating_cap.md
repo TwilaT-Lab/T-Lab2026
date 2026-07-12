@@ -41,8 +41,13 @@ Populating the cap means physically inserting optode for designed montage into i
 > **Check:** No tangled wires, and optodes should not be able to move during recording.
 
 ---
+## 4. Environmental Light Control
+Ambient/IR light can interfere with signal quality (raises dark noise). Options:
+- Run the session in a relatively dark room (may not suit younger children).
+- Use blackout clothing/an overcap over the fNIRS cap after it's placed.
 
-## 4. Final Check
+---
+## 5. Final Check
 - All optodes physically match grommet labels **and** the montage loaded in Aurora/NIRSite — a mismatch causes genuinely poor signal (wrong source–detector pairs), not just mislabeled data.
 - No fabric caught in any grommet groove (this jams the spring mechanism and decouples the optode from the scalp).
 
