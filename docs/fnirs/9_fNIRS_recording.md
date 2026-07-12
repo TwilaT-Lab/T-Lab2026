@@ -9,16 +9,18 @@ nav_order: 9
 ## Before the Participant Arrives
 1. Remember to fully charge the NIRSport2 device before recording.
 2. Log into the NIRSport2 laptop and open **Network and Internet settings** → click on broadcast name to connect wirelessly. *(The device can also connect via USB cable.)*
-[wifi_fNIRS]
+![wifi_fNIRS]({{ '/docs/images/wifi_fNIRS.png' | relative_url }})
+
 4. Turn on the NIRSport2: hold **Power** until it turns green.
    > Avoid powering on right before recording — early power-on can cause signal drift.
-[power_on_fNIRS]
+![power_on_fNIRS]({{ '/docs/images/power_on_fNIRS.png' | relative_url }})
+
 5. Plug in sources, detectors, and the trigger cable into the NIRSport2.
 [photo needed]
 7. Open Aurora → Select the device.
    - No device showing? Click **"Refresh list."**
    - Device on but not auto-connecting? Enter the password printed on the bottom of the NIRSport2 unit.
-[device_selection]
+![device_selection]({{ '/docs/images/device_selection.png' | relative_url }})
 8. Click your study's configuration name. (Maybe need more in detailed instruction here)
 [photo_needed]
 ---
