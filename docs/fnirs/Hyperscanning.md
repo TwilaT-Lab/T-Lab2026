@@ -2,7 +2,7 @@
 layout: default
 title: fNIRS Hyperscanning
 parent: fNIRS
-nav_order: 10
+nav_order: 11
 ---
 # fNIRS Hyperscanning
 
