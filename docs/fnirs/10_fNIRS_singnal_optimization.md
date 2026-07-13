@@ -2,7 +2,7 @@
 layout: default
 title: fNIRS Signal Optimization
 parent: fNIRS
-nav_order: 8
+nav_order: 10
 ---
 # fNIRS Signal Optimization
 
