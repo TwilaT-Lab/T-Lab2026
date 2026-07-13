@@ -4,7 +4,7 @@ title: Cap Montage Design
 parent: fNIRS
 nav_order: 4
 ---
-## Cap Montage Design
+# Cap Montage Design
 
 **Software:** NIRSite
 
