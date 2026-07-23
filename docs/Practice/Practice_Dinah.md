@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Dinah - Practice Page 
+title: Dinah - Practice Page
 parent: Practice
 nav_order: 1
 ---
-# About Nur Dinah Syafiqah
+
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 2rem; flex-wrap: wrap;">
   <h1 style="margin: 0;">About Nur Dinah Syafiqah</h1>
 
@@ -16,7 +16,8 @@ nav_order: 1
 </div>
 
 ## Lab Responsibilities
-- MOE SOL Grant Project: Focuses on Malay Billingual Measures (Adult and Child)
+
+- MOE SOL Grant Project: Focuses on Malay Bilingual Measures (Adult and Child)
     - fNIRS
     - Morphological Awareness and Phonological Awareness
-    - Adult Reading Fluency 
+    - Adult Reading Fluency
