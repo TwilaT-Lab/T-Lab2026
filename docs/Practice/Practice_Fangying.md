@@ -49,5 +49,5 @@ can put codes here
 ---
 <details>
 <summary>Click to see screenshot</summary>
-<img src="{{ '/docs/images/Fy2.jpeg' | relative_url }}" alt="me" width="300">
+<img src="{{ '/docs/images/Fy2.jpeg' | relative_url }}">
 </details>
