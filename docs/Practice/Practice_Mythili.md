@@ -37,6 +37,6 @@ Practicing with <b>1</b> hashtag
 </ol>
 
 # Adding an Image
----
 
-![Practice_image]({{'/docs/images/practice.png'|relative_url}}) 
+
+![me]({{'/docs/images/Fangying Picture.png' | relative_url }})
