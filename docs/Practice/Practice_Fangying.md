@@ -29,7 +29,6 @@ Hello I'm practicisng
 
 ### adding images and links
 I'm trying to add a link. [google](https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwilhpOy4ueVAxV81DgGHZywOFMQPAgI)
-I'm trying to add a picture ![me]({{'docs/images/Fangying2.jpeg' | relative_url }})
 
 ---
 ## Others
@@ -41,3 +40,14 @@ layout: default
 title: example
 can put codes here
 ```
+| Table | Column |
+|--|--|
+| Hello | Hi |
+| Yo | Bye |
+| Practicing | Tables |
+
+---
+<details>
+<summary>Click to see screenshot</summary>
+<img src="{{ '/docs/images/Fy2.jpeg' | relative_url }}" alt="me" width="300">
+</details>
