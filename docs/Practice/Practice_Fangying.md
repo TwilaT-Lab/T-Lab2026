@@ -4,3 +4,5 @@ title: Fangying - Practice Page
 parent: Practice
 nav_order: 2
 ---
+
+Hello I'm practicisng
