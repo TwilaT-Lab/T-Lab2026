@@ -25,4 +25,4 @@ Hello I'm practicisng
 
 ### adding images and links
 I'm trying to add a link. [google](https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwilhpOy4ueVAxV81DgGHZywOFMQPAgI)
-I'm trying to add a picture ![Google]({{https://storage.googleapis.com/gd-prod/images/a910d418-7123-4bc4-aa3b-ef7e25e74ae6.faa49ab5e1fff880.webp}})
+I'm trying to add a picture ![me]({{docs/images/Fangying Picture.png}})
