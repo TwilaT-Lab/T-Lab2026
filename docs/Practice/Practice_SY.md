@@ -24,6 +24,10 @@ title: SY - Practice Page
 ### Images
 ![Practice_image]({{'/docs/images/practice.png'|relative_url}})
 
+| Practice | Easy peasy |
+|--|--|
+| Hello | Hi |
+| Yo | Bye |
 
 ## Other
 > Notes
