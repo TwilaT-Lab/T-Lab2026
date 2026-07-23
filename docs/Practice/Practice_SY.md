@@ -11,3 +11,10 @@ nav_order: 5
 - *Hi*
   
 ### Practice
+```yaml
+layout: default
+title: SY - Practice Page
+```
+
+## Other
+> Notes
