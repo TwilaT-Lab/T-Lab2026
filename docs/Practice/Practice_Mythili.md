@@ -5,5 +5,5 @@ parent: Practice
 nav_order: 3
 ---
 
-![me]({{'/docs/images/Fangying Picture.png' | relative_url }})
+![fNIRS_cap_image]({{'/docs/images/Screenshot_MT.png' | relative_url }})
 
