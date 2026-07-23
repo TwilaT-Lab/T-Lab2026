@@ -4,6 +4,10 @@ title: Mythili - Practice Page
 parent: Practice
 nav_order: 3
 ---
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 2rem;">
+  <h1 style="margin: 0;">Circle Image</h1>
+  <img src="{{ '/docs/images/Screenshot_MT.png' | relative_url }}" alt="Screenshot_MT" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; flex-shrink: 0;"></div>
+
 # *Test*
 Practicing with **1** hashtag
 
