@@ -36,7 +36,6 @@ Practicing with <b>1</b> hashtag
   <li>Two</li>
 </ol>
 
-# Adding an Image
 
 
 ![me]({{'/docs/images/Fangying Picture.png' | relative_url }})
