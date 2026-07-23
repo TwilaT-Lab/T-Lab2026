@@ -7,6 +7,10 @@ nav_order: 2
 # FY's Prac Page
 Hello I'm practicisng
 
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 2rem;">
+  <h1 style="margin: 0;">About Nur Dinah Syafiqah</h1>
+  <img src="{{ '/docs/images/dinah.jpg' | relative_url }}" alt="Nur Dinah Syafiqah" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; flex-shrink: 0;"></div>
+
 ## Hello 
 **hello** *there*
 
