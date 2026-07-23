@@ -36,6 +36,7 @@ Practicing with <b>1</b> hashtag
   <li>Two</li>
 </ol>
 
-![Screenshot157_image]({{ '/docs/images/Screenshot157.png' | relative_url }}) 
+# Adding an Image
+---
 
 ![Practice_image]({{'/docs/images/practice.png'|relative_url}}) 
