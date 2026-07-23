@@ -28,6 +28,7 @@ title: SY - Practice Page
 |--|--|
 | Hello | Hi |
 | Yo | Bye |
+| Practicing | Tables |
 
 ## Other
 > Notes
