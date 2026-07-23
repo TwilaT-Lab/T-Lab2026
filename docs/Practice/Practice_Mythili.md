@@ -36,4 +36,4 @@ Practicing with <b>1</b> hashtag
   <li>Two</li>
 </ol>
 
-![fNIRS_cap_image]({{'/docs/images/Screenshot_MT.png'| relative_url }}) 
+! [fNIRS_cap_image]({{ '/docs/images/Screenshot_MT.png' | relative_url }}) 
