@@ -17,5 +17,8 @@ layout: default
 title: SY - Practice Page
 ```
 
+### Images
+![Practice_image]({{'/docs/images/practice.png'| relative_url}})
+
 ## Other
 > Notes
