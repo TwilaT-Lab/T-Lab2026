@@ -14,9 +14,11 @@ Hello I'm practicisng
 ***welcome to my prac page***
 
 - hahaha
-- hhaha
+- hheheh
 
-1. hahaha
-2. hahaha
-3. hahha
+1. one
+2. two
+3. three
 
+### adding images and links
+I'm trying to add a link. [google](https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwilhpOy4ueVAxV81DgGHZywOFMQPAgI)
