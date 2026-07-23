@@ -30,3 +30,14 @@ Hello I'm practicisng
 ### adding images and links
 I'm trying to add a link. [google](https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwilhpOy4ueVAxV81DgGHZywOFMQPAgI)
 I'm trying to add a picture ![me]({{'/docs/images/Fangying Picture.png' | relative_url }})
+
+---
+## Others
+> this is a note
+
+Code block:
+```yaml 
+layout: default
+title: example
+can put codes here
+```
