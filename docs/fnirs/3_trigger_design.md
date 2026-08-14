@@ -12,8 +12,8 @@ nav_order: 3
 
 | Method | Description |
 |---|---|
-| Manual | F1–F12 keys, up to 12 distinct markers |
-| Wired | Trigger cable + Cedrus C-POD |
+| Manual | Hardware connection + Press F1–F12 keys |
+| Wired | Hardware connection + PsychoPy |
 | Wireless | Lab Streaming Layer (LSL) |
 
 ---
@@ -22,52 +22,72 @@ nav_order: 3
 ![manualtrigger_hardware]({{ '/docs/images/manualtrigger_hardware.png' | relative_url }})
 *Figure modified and adapted from NIRx fNIRS Training Slides.*
 
-### Step 2 - Mannually Input Trigger
+### Step 2 - Manually Input Trigger
 - Assign different triggers to the F1–F12 keys. During recording, press the corresponding function key (F1–F12) whenever a trigger is required to insert a trigger marker into the recorded data.
 - When a trigger is set successfully, a vertical line will appear on the on-going recording signal.
 
 ## 2. Wired Triggering 
 Wired triggering allows trigger signals to be integrated directly into the PsychoPy program, enabling the stimulus presentation and trigger output to be synchronized.
 
-### Step 1 — Initialize Serial Connection
-Add a **Code Component** to the start routine → **"Begin Experiment"** tab:
+Below is a simple example demonstrating how to incorporate trigger signals into a PsychoPy script.
+### Part I. Integrate Trigger with PsychoPy 
+**Step 1** 
+Add a **Code Component** alongside stimulus. 
+![manualtrigger_hardware]({{ '/docs/images/manualtrigger_hardware.png' | relative_url }})
+
+**Step 2: Code Component → “Begin Experiment” tab**
 
 ```python
 import serial
-port = serial.Serial('COM3')  # Modify 'COM3' to match your device port
-```
+import serial.tools.list_ports
+import struct
+import time
 
-### Step 2 — Set Up State Variables
-In the trial routine where triggers are needed → Code Component → **"Begin Routine"** tab:
+def find_cpod():
+    for p in serial.tools.list_ports.comports():
+        try:
+            ser = serial.Serial(p.device, baudrate=115200, bytesize=8,
+                                 parity='N', stopbits=1, timeout=0.5)
+            ser.write(b'_c1')
+            time.sleep(0.05)
+            response = ser.read(10)
+            if b'_xid' in response:
+                return ser
+            ser.close()
+        except Exception:
+            continue
+    return None
+
+cpod = find_cpod()
+if cpod is None:
+    print("C-POD is not detected.")
+else:
+    cpod.write(b'mp' + struct.pack('<I', 20))
+    time.sleep(0.05)
+```
+**Step 3: Code Component → “Begin Routine” tab**
 
 ```python
-stimulus_pulse_started = False
-stimulus_pulse_ended = False
+trigger_sent = False
 ```
-
-### Step 3 — Configure Frame-Synchronized Triggering
-Same trial routine → **"Each Frame"** tab. Rename `stimulus` to match your actual visual/auditory component name:
+**Step 4: Code Component → “Each Frame” tab**
 
 ```python
-if stimulus.status == STARTED and not stimulus_pulse_started:
-    win.callOnFlip(port.write, str.encode('1'))
-    stimulus_pulse_start_time = globalClock.getTime()
-    stimulus_pulse_started = True
-
-if stimulus_pulse_started and not stimulus_pulse_ended:
-    if globalClock.getTime() - stimulus_pulse_start_time >= 0.005:
-        win.callOnFlip(port.write, str.encode('0'))
-        stimulus_pulse_ended = True
+if text_stim.status == STARTED and not trigger_sent:
+    if cpod is not None:
+        cpod.write(b'mh' + struct.pack('<H', 1))
+        print(f"Trigger 1 sent at {t:.4f}s")
+    else:
+        print(f"Trigger 1 should be sent at {t:.4f}s ")
+    trigger_sent = True
 ```
-
-### Step 4 — Terminate Hardware Connection
-In the final routine → Code Component → **"End Experiment"** tab:
-
+**Step 4: Code Component → “End Experiment” tab**
 ```python
-port.close()
+if cpod is not None:
+    cpod.close()
 ```
+### Part II: Hardware Connection
 
-> **Hardware note:** The NIRSport2 trigger input accepts a TTL-level (0–5V) positive-edge pulse of at least 10 ms duration.
 
 ---
 
