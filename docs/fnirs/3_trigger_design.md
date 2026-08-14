@@ -22,13 +22,12 @@ nav_order: 3
 ![manualtrigger_hardware]({{ '/docs/images/manualtrigger_hardware.png' | relative_url }})
 *Figure modified and adapted from NIRx fNIRS Training Slides.*
 
-### Step 2 - Mannually Put Trigger
+### Step 2 - Mannually Input Trigger
 - Assign different triggers to the F1–F12 keys. During recording, press the corresponding function key (F1–F12) whenever a trigger is required to insert a trigger marker into the recorded data.
-- When a trigger is set successfully, a vertical line will appear on the on-going recording data.
+- When a trigger is set successfully, a vertical line will appear on the on-going recording signal.
 
 ## 2. Wired Triggering 
-
-In PsychoPy, select the serial port and use a Code Component to send TTL pulses.
+Wired triggering allows trigger signals to be integrated directly into the PsychoPy program, enabling the stimulus presentation and trigger output to be synchronized.
 
 ### Step 1 — Initialize Serial Connection
 Add a **Code Component** to the start routine → **"Begin Experiment"** tab:
