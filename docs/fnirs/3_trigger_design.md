@@ -19,7 +19,7 @@ nav_order: 3
 ---
 ## 1. Manual Triggering
 ### Step 1 — Connect Hardware
-![manualtrigger_hardware]({{ '/docs/images/manualtrigger_hardware.png' | relative_url }})
+![Trigger_code_component]({{ '/docs/images/Trigger_code_component.png' | relative_url }})
 *Figure modified and adapted from NIRx fNIRS Training Slides.*
 
 ### Step 2 - Manually Input Trigger
@@ -88,6 +88,7 @@ if cpod is not None:
 ```
 ### Part II: Hardware Connection
 
+![PsychoPy_trigger_hardware]({{ '/docs/images/PsychoPy_trigger_hardware.png' | relative_url }})
 
 ---
 
