@@ -19,7 +19,7 @@ nav_order: 3
 ---
 ## 1. Manual Triggering
 ### Step 1 — Connect Hardware
-![Trigger_code_component]({{ '/docs/images/Trigger_code_component.png' | relative_url }})
+![manualtrigger_hardware]({{ '/docs/images/manualtrigger_hardware.png' | relative_url }})
 *Figure modified and adapted from NIRx fNIRS Training Slides.*
 
 ### Step 2 - Manually Input Trigger
@@ -33,7 +33,8 @@ Below is a simple example demonstrating how to incorporate trigger signals into 
 ### Part I. Integrate Trigger with PsychoPy 
 **Step 1** 
 Add a **Code Component** alongside stimulus. 
-![manualtrigger_hardware]({{ '/docs/images/manualtrigger_hardware.png' | relative_url }})
+![Trigger_code_component]({{ '/docs/images/Trigger_code_component.png' | relative_url }})
+
 
 **Step 2: Code Component → “Begin Experiment” tab**
 
