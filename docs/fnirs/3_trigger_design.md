@@ -90,7 +90,10 @@ if cpod is not None:
 ### Part II: Hardware Connection
 The equipment set up that is compatible to the code above is shown below.
 
-Explanation: The NIRSport2 host, Trigger Box, and C-Pod are connected in the same configuration as for manual triggering. The hardware is connected via cables to the computer running PsychoPy, which presents the stimuli and sends the trigger signals. A second computer runs Aurora to wirelessly record and visualize the fNIRS data.
+Explanation: 
+- The NIRSport2 host, Trigger Box, and C-Pod are connected in the same configuration as for manual triggering. 
+- The hardware is connected via cables to the computer running PsychoPy, which presents the stimuli and sends the trigger signals. 
+- A second computer runs Aurora to wirelessly record and visualize the fNIRS data.
 
 ![PsychoPy_trigger_hardware]({{ '/docs/images/PsychoPy_trigger_hardware.png' | relative_url }})
 
