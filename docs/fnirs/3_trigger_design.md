@@ -72,25 +72,34 @@ else:
 trigger_sent = False
 ```
 **Step 4: Code Component → “Each Frame” tab**
+This part of code enables co work of stimulus presented through psychopy and trigger sent out.
 
 ```python
+# Send the trigger when the stimulus starts
 if text_stim.status == STARTED and not trigger_sent:
+    # Send trigger code through c-pod
     if cpod is not None:
         cpod.write(b'mh' + struct.pack('<H', 1))
         print(f"Trigger 1 sent at {t:.4f}s")
+    # Send a error message when trigger sending fails
     else:
         print(f"Trigger 1 should be sent at {t:.4f}s ")
+    #Ensure trigger send only once.
     trigger_sent = True
 ```
-**Step 4: Code Component → “End Experiment” tab**
+
+**Step 5: Code Component → “End Experiment” tab**
+Disconnect C-Pod.
+
 ```python
 if cpod is not None:
     cpod.close()
 ```
+
 ### Part II: Hardware Connection
 The equipment set up that is compatible to the code above is shown below.
 
-Explanation: 
+**Explanation:**
 - The NIRSport2 host, Trigger Box, and C-Pod are connected in the same configuration as for manual triggering. 
 - The hardware is connected via cables to the computer running PsychoPy, which presents the stimuli and sends the trigger signals. 
 - A second computer runs Aurora to wirelessly record and visualize the fNIRS data.
