@@ -38,6 +38,9 @@ Add a **Code Component** alongside stimulus.
 
 **Step 2: Code Component → “Begin Experiment” tab**
 
+- Initialize the connection between c-pod and PsychoPy. 
+- After c-pod is found, set trigger last 20ms, and buffer for 50ms.
+
 ```python
 import serial
 import serial.tools.list_ports
@@ -66,31 +69,37 @@ else:
     cpod.write(b'mp' + struct.pack('<I', 20))
     time.sleep(0.05)
 ```
+
 **Step 3: Code Component → “Begin Routine” tab**
 
+Ensure trigger has not sent when begin the routine. 
 ```python
 trigger_sent = False
 ```
-**Step 4: Code Component → “Each Frame” tab**
-This part of code enables co work of stimulus presented through psychopy and trigger sent out.
 
+**Step 4: Code Component → “Each Frame” tab**
+
+This part of code enables co work of stimulus presented through psychopy and trigger sent out.
 ```python
 # Send the trigger when the stimulus starts
 if text_stim.status == STARTED and not trigger_sent:
+
     # Send trigger code through c-pod
     if cpod is not None:
         cpod.write(b'mh' + struct.pack('<H', 1))
         print(f"Trigger 1 sent at {t:.4f}s")
+
     # Send a error message when trigger sending fails
     else:
         print(f"Trigger 1 should be sent at {t:.4f}s ")
+
     #Ensure trigger send only once.
     trigger_sent = True
 ```
 
 **Step 5: Code Component → “End Experiment” tab**
-Disconnect C-Pod.
 
+Disconnect C-Pod.
 ```python
 if cpod is not None:
     cpod.close()
