@@ -119,14 +119,15 @@ The equipment set up that is compatible to the code above is shown below.
 
 ## 3. Wireless Triggering via LSL
 
-LSL synchronizes data and triggers over the same Wi-Fi/router network already used for the Aurora device connection. This method is particularly suitable for hyperscanning experiments in which a presentation PC delivers stimuli to both participants performing time-sensitive tasks simultaneously.
+LSL synchronizes data and triggers over the same Wi-Fi/router network already used for the Aurora device connection.
 
 - In Aurora's configuration, set the **Trigger in** stream name (default: `"Trigger"`).
 - The stream name on the **PsychoPy side must match exactly** — a mismatch silently drops all triggers.
-- Use Aurora's **Test Connection** button to confirm the stream is live before recording.
 
-> **Recommended order:** Start Aurora first → record a few seconds of baseline → then start the PsychoPy script. Confirm the LSL stream name matches on both sides **every session**, not just the first time.
+Below is several materials related to LSL:
 
----
-> Note: *Trigger files are saved automatically: `*_lsl.tri` (LSL/manual) and 
-`*.tri` (hardware) in the recording's data folder.*
+- [PsychoPy LSL Documentation](https://physiolabxrdocs.readthedocs.io/en/latest/PsychoPy.html#import-lsl)
+- [LSL Markers vs Hardware Triggers](https://bci.plus/lsl-markers-vs-hardware-triggers/#psychopy)
+- [Psychopy-LSL (from ID: jingruchenmax)](https://github.com/jingruchenmax/Psychopy-LSL)
+- [Psychopy-LSL (from ID: kaczmarj)](https://github.com/kaczmarj/psychopy-lsl)
+- [fNIRS + LSL Blog Post](https://nimrobotics.com/blog/2022/fnirsl-lsl/)
